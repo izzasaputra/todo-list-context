@@ -1,0 +1,25 @@
+@import "../assets/variabel/css-variables.scss";
+
+.home-body{
+    background-color: $color-primary;
+    min-height: 100vh;
+}
+
+.home-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.title{
+    color: #A5D7E8;
+}
+
+.border-form{
+    border: 1px  solid black;
+    padding: 50px;
+    margin-top: 10px;
+    background-color: $color-secondary;
+}

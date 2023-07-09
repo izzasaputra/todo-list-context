@@ -1,0 +1,27 @@
+@import "../assets/variabel/css-variables.scss";
+
+.card-container-red{
+    background-color: $color-red;
+}
+
+.card-container-success{
+    background-color: $color-success;
+}
+
+.card-container-edit{
+    background-color: $color-primary;
+}
+
+.card-text{
+    overflow-wrap: break-word;
+}
+
+.card-status{
+    color: $color-white;
+    font-weight: 600 !important;
+}
+
+.card_action_icon{
+    font-size: 20px;
+    margin-right: 10px;
+}
